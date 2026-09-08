@@ -1,0 +1,324 @@
+{
+  "layouts": [
+    {
+      "width": 320,
+      "route": "/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 320,
+      "route": "/work/ai-sandbox/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 320,
+      "route": "/work/dewu/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 320,
+      "route": "/work/ai-assisted-editing/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 320,
+      "route": "/work/ai-video/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 320,
+      "route": "/work/xiaohongshu/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 320,
+      "route": "/videos/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 390,
+      "route": "/work/ai-sandbox/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 390,
+      "route": "/work/dewu/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 390,
+      "route": "/work/ai-assisted-editing/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 390,
+      "route": "/work/ai-video/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 390,
+      "route": "/work/xiaohongshu/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 390,
+      "route": "/videos/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 768,
+      "route": "/work/ai-sandbox/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 768,
+      "route": "/work/dewu/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 768,
+      "route": "/work/ai-assisted-editing/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 768,
+      "route": "/work/ai-video/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 768,
+      "route": "/work/xiaohongshu/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 768,
+      "route": "/videos/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 1440,
+      "route": "/work/ai-sandbox/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 1440,
+      "route": "/work/dewu/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 1440,
+      "route": "/work/ai-assisted-editing/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 1440,
+      "route": "/work/ai-video/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 1440,
+      "route": "/work/xiaohongshu/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    },
+    {
+      "width": 1440,
+      "route": "/videos/",
+      "overflow": false,
+      "broken": [],
+      "outside": []
+    }
+  ],
+  "videos": [
+    {
+      "id": "guangzhou-sandbox",
+      "duration": 33.646009,
+      "width": 1280,
+      "height": 720,
+      "currentTime": 26.917116,
+      "error": null,
+      "range": true,
+      "close": true
+    },
+    {
+      "id": "cloud-oriental",
+      "duration": 18.088005,
+      "width": 1280,
+      "height": 720,
+      "currentTime": 14.470711,
+      "error": null,
+      "range": true,
+      "close": true
+    },
+    {
+      "id": "mirror-doll",
+      "duration": 5.041667,
+      "width": 722,
+      "height": 1281,
+      "currentTime": 4.03352,
+      "error": null,
+      "range": true,
+      "close": true
+    },
+    {
+      "id": "peach-blush",
+      "duration": 15.092993,
+      "width": 960,
+      "height": 1280,
+      "currentTime": 12.074586,
+      "error": null,
+      "range": true,
+      "close": true
+    },
+    {
+      "id": "wardrobe-talk",
+      "duration": 90.906009,
+      "width": 720,
+      "height": 1280,
+      "currentTime": 72.725096,
+      "error": null,
+      "range": true,
+      "close": true
+    },
+    {
+      "id": "maternal-talk",
+      "duration": 102.4,
+      "width": 720,
+      "height": 1280,
+      "currentTime": 81.920351,
+      "error": null,
+      "range": true,
+      "close": true
+    },
+    {
+      "id": "v801-product",
+      "duration": 72.576,
+      "width": 1280,
+      "height": 720,
+      "currentTime": 58.06136,
+      "error": null,
+      "range": true,
+      "close": true
+    },
+    {
+      "id": "sp06-product",
+      "duration": 38.442,
+      "width": 1280,
+      "height": 720,
+      "currentTime": 30.754001,
+      "error": null,
+      "range": true,
+      "close": true
+    },
+    {
+      "id": "power-talk",
+      "duration": 29.720998,
+      "width": 720,
+      "height": 1280,
+      "currentTime": 23.777361,
+      "error": null,
+      "range": true,
+      "close": true
+    },
+    {
+      "id": "mf12-talk",
+      "duration": 85.705011,
+      "width": 720,
+      "height": 1280,
+      "currentTime": 68.564736,
+      "error": null,
+      "range": true,
+      "close": true
+    },
+    {
+      "id": "office-short",
+      "duration": 12.306009,
+      "width": 720,
+      "height": 1280,
+      "currentTime": 9.845071,
+      "error": null,
+      "range": true,
+      "close": true
+    }
+  ],
+  "checks": [
+    "28 layouts; all images; no initial MP4 requests",
+    "image zoom/Escape/focus return",
+    "filmstrip; stage switch; Lab expand",
+    "clipboard",
+    "resume;404",
+    "video network failure",
+    "iPhone emulation: landscape and portrait playback",
+    "no-JS core pages and direct video links",
+    "reduced motion",
+    "Edge video playback"
+  ]
+}

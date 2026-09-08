@@ -1,0 +1,641 @@
+[
+  {
+    "file": "/images/p02-01.webp",
+    "source": "个人作品集.pdf",
+    "page": 2,
+    "original": "X5.jpg",
+    "width": 512,
+    "height": 1119
+  },
+  {
+    "file": "/images/p04-01.webp",
+    "source": "个人作品集.pdf",
+    "page": 4,
+    "original": "X5.jpg",
+    "width": 300,
+    "height": 496
+  },
+  {
+    "file": "/images/p04-02.webp",
+    "source": "个人作品集.pdf",
+    "page": 4,
+    "original": "X7.jpg",
+    "width": 304,
+    "height": 520
+  },
+  {
+    "file": "/images/p04-03.webp",
+    "source": "个人作品集.pdf",
+    "page": 4,
+    "original": "X8.jpg",
+    "width": 300,
+    "height": 506
+  },
+  {
+    "file": "/images/p04-04.webp",
+    "source": "个人作品集.pdf",
+    "page": 4,
+    "original": "X9.jpg",
+    "width": 299,
+    "height": 508
+  },
+  {
+    "file": "/images/p04-05.webp",
+    "source": "个人作品集.pdf",
+    "page": 4,
+    "original": "X11.png",
+    "width": 313,
+    "height": 479
+  },
+  {
+    "file": "/images/p04-06.webp",
+    "source": "个人作品集.pdf",
+    "page": 4,
+    "original": "X12.png",
+    "width": 362,
+    "height": 787
+  },
+  {
+    "file": "/images/p04-07.webp",
+    "source": "个人作品集.pdf",
+    "page": 4,
+    "original": "X13.png",
+    "width": 824,
+    "height": 563
+  },
+  {
+    "file": "/images/p05-01.webp",
+    "source": "个人作品集.pdf",
+    "page": 5,
+    "original": "X5.png",
+    "width": 530,
+    "height": 826
+  },
+  {
+    "file": "/images/p05-02.webp",
+    "source": "个人作品集.pdf",
+    "page": 5,
+    "original": "X7.png",
+    "width": 666,
+    "height": 586
+  },
+  {
+    "file": "/images/p05-03.webp",
+    "source": "个人作品集.pdf",
+    "page": 5,
+    "original": "X8.png",
+    "width": 497,
+    "height": 826
+  },
+  {
+    "file": "/images/p05-04.webp",
+    "source": "个人作品集.pdf",
+    "page": 5,
+    "original": "X9.png",
+    "width": 524,
+    "height": 457
+  },
+  {
+    "file": "/images/p06-01.webp",
+    "source": "个人作品集.pdf",
+    "page": 6,
+    "original": "X5.png",
+    "width": 735,
+    "height": 376
+  },
+  {
+    "file": "/images/p06-02.webp",
+    "source": "个人作品集.pdf",
+    "page": 6,
+    "original": "X7.png",
+    "width": 1378,
+    "height": 409
+  },
+  {
+    "file": "/images/p07-01.webp",
+    "source": "个人作品集.pdf",
+    "page": 7,
+    "original": "X5.png",
+    "width": 603,
+    "height": 1311
+  },
+  {
+    "file": "/images/p07-02.webp",
+    "source": "个人作品集.pdf",
+    "page": 7,
+    "original": "X8.png",
+    "width": 603,
+    "height": 1311
+  },
+  {
+    "file": "/images/p08-01.webp",
+    "source": "个人作品集.pdf",
+    "page": 8,
+    "original": "X5.png",
+    "width": 512,
+    "height": 159
+  },
+  {
+    "file": "/images/p08-02.webp",
+    "source": "个人作品集.pdf",
+    "page": 8,
+    "original": "X7.jpg",
+    "width": 483,
+    "height": 1049
+  },
+  {
+    "file": "/images/p08-03.webp",
+    "source": "个人作品集.pdf",
+    "page": 8,
+    "original": "X8.png",
+    "width": 761,
+    "height": 810
+  },
+  {
+    "file": "/images/p08-04.webp",
+    "source": "个人作品集.pdf",
+    "page": 8,
+    "original": "X9.png",
+    "width": 832,
+    "height": 640
+  },
+  {
+    "file": "/images/p08-05.webp",
+    "source": "个人作品集.pdf",
+    "page": 8,
+    "original": "X13.png",
+    "width": 226,
+    "height": 353
+  },
+  {
+    "file": "/images/p08-06.webp",
+    "source": "个人作品集.pdf",
+    "page": 8,
+    "original": "X14.png",
+    "width": 1302,
+    "height": 628
+  },
+  {
+    "file": "/images/p08-07.webp",
+    "source": "个人作品集.pdf",
+    "page": 8,
+    "original": "X15.png",
+    "width": 272,
+    "height": 379
+  },
+  {
+    "file": "/images/p08-08.webp",
+    "source": "个人作品集.pdf",
+    "page": 8,
+    "original": "X16.png",
+    "width": 200,
+    "height": 293
+  },
+  {
+    "file": "/images/p09-01.webp",
+    "source": "个人作品集.pdf",
+    "page": 9,
+    "original": "X5.png",
+    "width": 845,
+    "height": 1836
+  },
+  {
+    "file": "/images/p09-02.webp",
+    "source": "个人作品集.pdf",
+    "page": 9,
+    "original": "X7.jpg",
+    "width": 850,
+    "height": 1134
+  },
+  {
+    "file": "/images/p09-03.webp",
+    "source": "个人作品集.pdf",
+    "page": 9,
+    "original": "X8.png",
+    "width": 350,
+    "height": 467
+  },
+  {
+    "file": "/images/p09-04.webp",
+    "source": "个人作品集.pdf",
+    "page": 9,
+    "original": "X9.png",
+    "width": 585,
+    "height": 1266
+  },
+  {
+    "file": "/images/p09-05.webp",
+    "source": "个人作品集.pdf",
+    "page": 9,
+    "original": "X10.jpg",
+    "width": 384,
+    "height": 512
+  },
+  {
+    "file": "/images/p09-06.webp",
+    "source": "个人作品集.pdf",
+    "page": 9,
+    "original": "X11.jpg",
+    "width": 384,
+    "height": 513
+  },
+  {
+    "file": "/images/p09-07.webp",
+    "source": "个人作品集.pdf",
+    "page": 9,
+    "original": "X12.jpg",
+    "width": 362,
+    "height": 485
+  },
+  {
+    "file": "/images/p10-01.webp",
+    "source": "个人作品集.pdf",
+    "page": 10,
+    "original": "X5.png",
+    "width": 603,
+    "height": 1311
+  },
+  {
+    "file": "/images/p10-02.webp",
+    "source": "个人作品集.pdf",
+    "page": 10,
+    "original": "X7.png",
+    "width": 483,
+    "height": 1049
+  },
+  {
+    "file": "/images/p10-03.webp",
+    "source": "个人作品集.pdf",
+    "page": 10,
+    "original": "X8.png",
+    "width": 483,
+    "height": 1049
+  },
+  {
+    "file": "/images/p10-04.webp",
+    "source": "个人作品集.pdf",
+    "page": 10,
+    "original": "X9.png",
+    "width": 362,
+    "height": 787
+  },
+  {
+    "file": "/images/p10-05.webp",
+    "source": "个人作品集.pdf",
+    "page": 10,
+    "original": "X10.png",
+    "width": 483,
+    "height": 1049
+  },
+  {
+    "file": "/images/p10-06.webp",
+    "source": "个人作品集.pdf",
+    "page": 10,
+    "original": "X11.jpg",
+    "width": 512,
+    "height": 683
+  },
+  {
+    "file": "/images/p10-07.webp",
+    "source": "个人作品集.pdf",
+    "page": 10,
+    "original": "X12.jpg",
+    "width": 483,
+    "height": 1049
+  },
+  {
+    "file": "/images/p10-08.webp",
+    "source": "个人作品集.pdf",
+    "page": 10,
+    "original": "X13.jpg",
+    "width": 724,
+    "height": 1574
+  },
+  {
+    "file": "/images/dewu-cover.webp",
+    "source": "个人作品集.pdf",
+    "page": 10,
+    "derivedFrom": "p10-02.webp",
+    "purpose": "content-cover",
+    "crop": [
+      0,
+      72,
+      483,
+      710
+    ]
+  },
+  {
+    "file": "/images/xhs-note.webp",
+    "source": "个人作品集.pdf",
+    "page": 9,
+    "purpose": "representative-note",
+    "method": "2x PDF render and isolated crop"
+  },
+  {
+    "file": "/images/sandbox-analytics.webp",
+    "source": "C:\\Users\\28401\\Desktop\\个人网站\\个人作品集网站\\AI创作沙盘\\52b9f8e3369a2d5ab64739871df53a4e.png",
+    "sourceFile": "AI创作沙盘\\52b9f8e3369a2d5ab64739871df53a4e.png",
+    "assetId": "asset-01",
+    "type": "image",
+    "sourceBytes": 126243,
+    "webBytes": 38524,
+    "sourceSHA256": "87d02095955f9b4731ec016b0b71f938a7cc013ac64d31a0594f4b8245469662"
+  },
+  {
+    "file": "/videos/guangzhou-sandbox.mp4",
+    "source": "C:\\Users\\28401\\Desktop\\个人网站\\个人作品集网站\\AI创作沙盘\\半小时，用GPT6.0做了个能逛的广州.mp4",
+    "sourceFile": "AI创作沙盘\\半小时，用GPT6.0做了个能逛的广州.mp4",
+    "assetId": "asset-02",
+    "type": "video",
+    "sourceBytes": 43283030,
+    "webBytes": 10525894,
+    "sourceSHA256": "77d007029f7552afde4fb05234f2aba71e44dfb34b9bfbbd61ef2bad10406329",
+    "duration": 33.646009,
+    "originalWidth": 1920,
+    "originalHeight": 1080,
+    "poster": "/images/guangzhou-sandbox.webp",
+    "processing": "网页副本 H.264 / AAC / faststart；最长边 1280；保留原比例和声音"
+  },
+  {
+    "file": "/videos/cloud-oriental.mp4",
+    "source": "C:\\Users\\28401\\Desktop\\个人网站\\个人作品集网站\\AI视频实验 01.mp4",
+    "sourceFile": "AI视频实验 01.mp4",
+    "assetId": "asset-03",
+    "type": "video",
+    "sourceBytes": 37943580,
+    "webBytes": 5004863,
+    "sourceSHA256": "fa7b9e51bb550f3b8e91d278923965b0e4fc78b251045ad133c4ff3ab4f549f8",
+    "duration": 18.088005,
+    "originalWidth": 2560,
+    "originalHeight": 1440,
+    "poster": "/images/cloud-oriental.webp",
+    "processing": "网页副本 H.264 / AAC / faststart；最长边 1280；保留原比例和声音"
+  },
+  {
+    "file": "/videos/mirror-doll.mp4",
+    "source": "C:\\Users\\28401\\Desktop\\个人网站\\个人作品集网站\\AI视频实验 02.mp4",
+    "sourceFile": "AI视频实验 02.mp4",
+    "assetId": "asset-04",
+    "type": "video",
+    "sourceBytes": 9356924,
+    "webBytes": 1372689,
+    "sourceSHA256": "5186d71947b8da8c6f880601e94f9635afec8163754e74c7a032d9651dab8e3d",
+    "duration": 5.041667,
+    "originalWidth": 1080,
+    "originalHeight": 1916,
+    "poster": "/images/mirror-doll.webp",
+    "processing": "网页副本 H.264 / AAC / faststart；最长边 1280；保留原比例和声音"
+  },
+  {
+    "file": "/videos/peach-blush.mp4",
+    "source": "C:\\Users\\28401\\Desktop\\个人网站\\个人作品集网站\\AI视频实验海外社媒 03.mp4",
+    "sourceFile": "AI视频实验海外社媒 03.mp4",
+    "assetId": "asset-05",
+    "type": "video",
+    "sourceBytes": 1490525,
+    "webBytes": 2751770,
+    "sourceSHA256": "9d3a858c0a40ca92c41fc6098cbac376fcd6c71fc65683fa0b8156898c767a9e",
+    "duration": 15.071995,
+    "originalWidth": 720,
+    "originalHeight": 960,
+    "poster": "/images/peach-blush.webp",
+    "processing": "网页副本 H.264 / AAC / faststart；最长边 1280；保留原比例和声音"
+  },
+  {
+    "file": "/videos/maternal-talk.mp4",
+    "source": "C:\\Users\\28401\\Desktop\\个人网站\\个人作品集网站\\ai辅助制作视频成片\\小红书博主：营养师婉婉妈妈➕圣桐奶粉.mp4",
+    "sourceFile": "ai辅助制作视频成片\\小红书博主：营养师婉婉妈妈➕圣桐奶粉.mp4",
+    "assetId": "asset-06",
+    "type": "video",
+    "sourceBytes": 216765216,
+    "webBytes": 19724291,
+    "sourceSHA256": "0f965fa571a485cead6ceb2f9a85dfd6c7fbcc930b242b1d5718c28f9f9159c6",
+    "duration": 102.4,
+    "originalWidth": 1440,
+    "originalHeight": 2560,
+    "poster": "/images/maternal-talk.webp",
+    "processing": "网页副本 H.264 / AAC / faststart；最长边 1280；保留原比例和声音"
+  },
+  {
+    "file": "/videos/wardrobe-talk.mp4",
+    "source": "C:\\Users\\28401\\Desktop\\个人网站\\个人作品集网站\\ai辅助制作视频成片\\小红书：佳佳爱生活➕铂耐金属衣柜.mp4",
+    "sourceFile": "ai辅助制作视频成片\\小红书：佳佳爱生活➕铂耐金属衣柜.mp4",
+    "assetId": "asset-07",
+    "type": "video",
+    "sourceBytes": 192518849,
+    "webBytes": 23510222,
+    "sourceSHA256": "b5310467e2b775c70c471f231569513ccc36e59f0212e2cf6abf0b311d63d84a",
+    "duration": 90.906009,
+    "originalWidth": 1440,
+    "originalHeight": 2560,
+    "poster": "/images/wardrobe-talk.webp",
+    "processing": "网页副本 H.264 / AAC / faststart；最长边 1280；保留原比例和声音"
+  },
+  {
+    "file": "/images/lab-home.webp",
+    "source": "C:\\Users\\28401\\Desktop\\个人网站\\个人作品集网站\\个人工作台AI Coding\\1.jpg",
+    "sourceFile": "个人工作台AI Coding\\1.jpg",
+    "assetId": "asset-08",
+    "type": "image",
+    "sourceBytes": 485325,
+    "webBytes": 207324,
+    "sourceSHA256": "93f5ba925a85d59b2dd3f3787818ddb54279dc513a3ab839a2ad45e60e07ae65"
+  },
+  {
+    "file": "/images/lab-ideas.webp",
+    "source": "C:\\Users\\28401\\Desktop\\个人网站\\个人作品集网站\\个人工作台AI Coding\\2.jpg",
+    "sourceFile": "个人工作台AI Coding\\2.jpg",
+    "assetId": "asset-09",
+    "type": "image",
+    "sourceBytes": 339319,
+    "webBytes": 134744,
+    "sourceSHA256": "3da7a4675d3972a5bc84c7bf99dc909bcf5dfb7b67fb69b7c6fa242cdb1eea47"
+  },
+  {
+    "file": "/images/lab-daily.webp",
+    "source": "C:\\Users\\28401\\Desktop\\个人网站\\个人作品集网站\\个人工作台AI Coding\\3.jpg",
+    "sourceFile": "个人工作台AI Coding\\3.jpg",
+    "assetId": "asset-10",
+    "type": "image",
+    "sourceBytes": 296045,
+    "webBytes": 117084,
+    "sourceSHA256": "61feec58b244d24987ff11580a5c532c127ce129408c64cc6e35a40bcad0c7cd"
+  },
+  {
+    "file": "/images/lab-notes.webp",
+    "source": "C:\\Users\\28401\\Desktop\\个人网站\\个人作品集网站\\个人工作台AI Coding\\4.jpg",
+    "sourceFile": "个人工作台AI Coding\\4.jpg",
+    "assetId": "asset-11",
+    "type": "image",
+    "sourceBytes": 425270,
+    "webBytes": 181998,
+    "sourceSHA256": "faa9aa3b2b786d4a3143f6f749bd0626c190ea203309817b20f58b40a5b4f776"
+  },
+  {
+    "file": "/images/dewu-account.webp",
+    "source": "C:\\Users\\28401\\Desktop\\个人网站\\个人作品集网站\\得物\\微信图片_20260907204813_259_324.jpg",
+    "sourceFile": "得物\\微信图片_20260907204813_259_324.jpg",
+    "assetId": "asset-12",
+    "type": "image",
+    "sourceBytes": 38800,
+    "webBytes": 20956,
+    "sourceSHA256": "af1eb7e062f54c7a786a684ae5e4c71905e8e05e092bd269cacf9483a6b2b577"
+  },
+  {
+    "file": "/images/dewu-pink-analytics.webp",
+    "source": "C:\\Users\\28401\\Desktop\\个人网站\\个人作品集网站\\得物\\微信图片_20260907204814_260_324.jpg",
+    "sourceFile": "得物\\微信图片_20260907204814_260_324.jpg",
+    "assetId": "asset-13",
+    "type": "image",
+    "sourceBytes": 184823,
+    "webBytes": 97168,
+    "sourceSHA256": "aa47e1664c8061f05a2f1a5de75e2cc274509514fed372f8c07b01c117e6b243"
+  },
+  {
+    "file": "/images/dewu-zoo-analytics.webp",
+    "source": "C:\\Users\\28401\\Desktop\\个人网站\\个人作品集网站\\得物\\微信图片_20260907204815_261_324.jpg",
+    "sourceFile": "得物\\微信图片_20260907204815_261_324.jpg",
+    "assetId": "asset-14",
+    "type": "image",
+    "sourceBytes": 178850,
+    "webBytes": 91810,
+    "sourceSHA256": "4cb5fba6645efd611c91430a936c07dde1093d60c4731be89e676e2569b31432"
+  },
+  {
+    "file": "/videos/v801-product.mp4",
+    "source": "C:\\Users\\28401\\Desktop\\个人网站\\个人作品集网站\\视频创作\\产品宣传\\产品宣传片.mp4",
+    "sourceFile": "视频创作\\产品宣传\\产品宣传片.mp4",
+    "assetId": "asset-15",
+    "type": "video",
+    "sourceBytes": 3484500,
+    "webBytes": 5544950,
+    "sourceSHA256": "729b3bfb6b03d8b78acd66aa856395ed142ef8b3656285327b59482162e6adb6",
+    "duration": 72.576,
+    "originalWidth": 1280,
+    "originalHeight": 720,
+    "poster": "/images/v801-product.webp",
+    "processing": "网页副本 H.264 / AAC / faststart；最长边 1280；保留原比例和声音"
+  },
+  {
+    "file": "/videos/sp06-product.mp4",
+    "source": "C:\\Users\\28401\\Desktop\\个人网站\\个人作品集网站\\视频创作\\产品宣传\\产品宣传片2.mp4",
+    "sourceFile": "视频创作\\产品宣传\\产品宣传片2.mp4",
+    "assetId": "asset-16",
+    "type": "video",
+    "sourceBytes": 2479342,
+    "webBytes": 4228596,
+    "sourceSHA256": "485c4561451b19e9375d89e84c38aea24c4e1420f683712beb27a0411f703e04",
+    "duration": 38.442667,
+    "originalWidth": 1280,
+    "originalHeight": 720,
+    "poster": "/images/sp06-product.webp",
+    "processing": "网页副本 H.264 / AAC / faststart；最长边 1280；保留原比例和声音"
+  },
+  {
+    "file": "/images/power-talk-cover.webp",
+    "source": "C:\\Users\\28401\\Desktop\\个人网站\\个人作品集网站\\视频创作\\口播\\8.14便携式的扩展电源-封面.jpg",
+    "sourceFile": "视频创作\\口播\\8.14便携式的扩展电源-封面.jpg",
+    "assetId": "asset-17",
+    "type": "image",
+    "sourceBytes": 270422,
+    "webBytes": 339248,
+    "sourceSHA256": "15cc22071ee4099addec8588f6f6a3da2a7166190afa11e3656b66dce93d4cbe"
+  },
+  {
+    "file": "/videos/power-talk.mp4",
+    "source": "C:\\Users\\28401\\Desktop\\个人网站\\个人作品集网站\\视频创作\\口播\\8.14便携式的扩展电源.mp4",
+    "sourceFile": "视频创作\\口播\\8.14便携式的扩展电源.mp4",
+    "assetId": "asset-18",
+    "type": "video",
+    "sourceBytes": 53301176,
+    "webBytes": 10387077,
+    "sourceSHA256": "9d1319cd6bee72d6f895bab5a088f5fb9cbb12fe1f714f633d39f40dbdd2aa85",
+    "duration": 29.720998,
+    "originalWidth": 1080,
+    "originalHeight": 1920,
+    "poster": "/images/power-talk.webp",
+    "processing": "网页副本 H.264 / AAC / faststart；最长边 1280；保留原比例和声音"
+  },
+  {
+    "file": "/images/mf12-talk-cover.webp",
+    "source": "C:\\Users\\28401\\Desktop\\个人网站\\个人作品集网站\\视频创作\\口播\\8.6MF-12-封面.jpg",
+    "sourceFile": "视频创作\\口播\\8.6MF-12-封面.jpg",
+    "assetId": "asset-19",
+    "type": "image",
+    "sourceBytes": 257922,
+    "webBytes": 308642,
+    "sourceSHA256": "7aac648d327d85b7dbbf64539eecb89872a703a2f9b5d48c510fb8b1ea8f65d7"
+  },
+  {
+    "file": "/videos/mf12-talk.mp4",
+    "source": "C:\\Users\\28401\\Desktop\\个人网站\\个人作品集网站\\视频创作\\口播\\8.6MF-12.mp4",
+    "sourceFile": "视频创作\\口播\\8.6MF-12.mp4",
+    "assetId": "asset-20",
+    "type": "video",
+    "sourceBytes": 151936055,
+    "webBytes": 16682289,
+    "sourceSHA256": "47d27ababd028ff44215cf0dde4b0d1e3dd2e2c7f927da3b77c8af43172950f6",
+    "duration": 85.705011,
+    "originalWidth": 1080,
+    "originalHeight": 1920,
+    "poster": "/images/mf12-talk.webp",
+    "processing": "网页副本 H.264 / AAC / faststart；720×1280；从高帧率转换为 30fps；保留原比例和声音；压缩以减少在线流量"
+  },
+  {
+    "file": "/videos/office-short.mp4",
+    "source": "C:\\Users\\28401\\Desktop\\个人网站\\个人作品集网站\\视频创作\\口播\\那个永远准时下班的05后.mp4",
+    "sourceFile": "视频创作\\口播\\那个永远准时下班的05后.mp4",
+    "assetId": "asset-21",
+    "type": "video",
+    "sourceBytes": 20585287,
+    "webBytes": 3587996,
+    "sourceSHA256": "24ecc7539e9dba9e72b21b44d3768a2f684c931de8242c39afb9371cdc777815",
+    "duration": 12.306009,
+    "originalWidth": 1080,
+    "originalHeight": 1920,
+    "poster": "/images/office-short.webp",
+    "processing": "网页副本 H.264 / AAC / faststart；720×1280；保留原比例和声音；压缩至静态托管单文件限制以内"
+  },
+  {
+    "file": "/images/dewu-content-samples.webp",
+    "source": "C:\\Users\\28401\\AppData\\Local\\Temp\\codex-clipboard-fada0dd8-7b90-4a7a-b215-6eb6fdfdb613.jpg",
+    "assetId": "asset-22",
+    "type": "image",
+    "sourceBytes": 9690641,
+    "webBytes": 720412,
+    "sourceSHA256": "654d6dbb8c4f42b28d1cd93914aad40a74f5360b28650b96d75c9f68aac1a2bc",
+    "originalWidth": 3618,
+    "originalHeight": 4824,
+    "webWidth": 1800,
+    "webHeight": 2400,
+    "processing": "转换为 WebP，保留原始比例，最长边缩放至 2400px"
+  },
+  {
+    "file": "/images/dewu-reading-list.webp",
+    "source": "C:\\Users\\28401\\AppData\\Local\\Temp\\codex-clipboard-3f0f8ab8-cb1b-4d0a-9438-3c2ab98793a9.jpg",
+    "assetId": "asset-23",
+    "type": "image",
+    "sourceBytes": 361035,
+    "webBytes": 186150,
+    "sourceSHA256": "02b7fc51c7cfe781d55aeb7f77a649ce729cda9c2c942d894dbcede4c99c3019",
+    "originalWidth": 1206,
+    "originalHeight": 2450,
+    "webWidth": 1181,
+    "webHeight": 2400,
+    "processing": "转换为 WebP，保留原始比例，最长边缩放至 2400px"
+  },
+  {
+    "file": "/images/dewu-video-samples.webp",
+    "source": "C:\\Users\\28401\\AppData\\Local\\Temp\\codex-clipboard-09b2a92d-bffd-42ca-ac0d-3910d2b88d69.jpg",
+    "assetId": "asset-24",
+    "type": "image",
+    "sourceBytes": 2412465,
+    "webBytes": 302308,
+    "sourceSHA256": "097e3db91092d871a8109c7cac26550818edf0bf0aa6f737941f78ddbea8f004",
+    "originalWidth": 1526,
+    "originalHeight": 2035,
+    "webWidth": 1526,
+    "webHeight": 2035,
+    "processing": "转换为 WebP，保留原始比例与原始尺寸"
+  }
+]
