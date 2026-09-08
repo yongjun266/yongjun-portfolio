@@ -1,0 +1,22 @@
+---
+import { imageDimensions } from '../data/media';
+interface Props { src?: string; poster?: string; alt?: string; caption?: string; kind?: 'image'|'video'|'placeholder'; eager?: boolean; class?: string; }
+const { src, poster, alt = '', caption, kind = 'image', eager = false, class: className = '' } = Astro.props;
+---
+<figure class:list={['media',className,{'media-placeholder':kind==='placeholder'}]}>
+  {kind === 'placeholder' ? <div class="story-placeholder" aria-label="AI 视频创作，作品整理中">
+    <div class="placeholder-top"><span>IN THE MAKING</span><span>COMING NEXT ↗</span></div>
+    <div class="story-frames" aria-hidden="true"><div class="frame-landscape"><i></i><b></b></div><div class="frame-portrait"><i></i><b></b></div><div class="frame-orbit"><i></i><b></b></div></div>
+    <div class="time-ruler" aria-hidden="true"></div>
+    <div class="placeholder-bottom"><strong>AI 视频创作</strong><span>作品整理中</span></div>
+    <p>完整成片与创作过程将陆续更新</p>
+  </div> : kind === 'video' && src ? <div class="video-shell">
+    <video controls playsinline preload="none" poster={poster} aria-label={alt}><source src={src} type="video/mp4"/><p>浏览器暂不支持视频播放。</p></video>
+    <a class="video-expand" href={src} data-video data-poster={poster} data-title={alt}>大尺寸观看 ↗</a>
+    <p class="video-error" hidden>视频暂时无法播放。{poster && <a href={poster} data-zoom data-caption={caption || alt}>查看作品封面 ↗</a>}</p>
+  </div> : src ? <a href={src} class="zoom-link" data-zoom data-caption={caption || alt} aria-label={`放大查看：${alt}`}>
+    <img src={src} alt={alt} {...imageDimensions(src)} loading={eager ? 'eager':'lazy'} decoding="async"/>
+    <span class="zoom-mark" aria-hidden="true">↗</span>
+  </a> : <div class="media-unavailable">素材整理中</div>}
+  {caption && <figcaption>{caption}</figcaption>}
+</figure>

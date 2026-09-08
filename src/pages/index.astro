@@ -1,0 +1,72 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Media from '../components/Media.astro';
+import CaseCard from '../components/CaseCard.astro';
+import VideoCard from '../components/VideoCard.astro';
+import videos from '../data/videos.json';
+import { profile, filmstrip } from '../data/profile';
+import { imageDimensions } from '../data/media';
+const projects=(await getCollection('cases')).filter(x=>['ai-sandbox','dewu','ai-assisted-editing','ai-video'].includes(x.id)).sort((a,b)=>a.data.number.localeCompare(b.data.number));
+const steps=[
+  {title:'从一句卖点，找到画面需求',label:'01 / 场景需求',src:'/images/p05-02.webp',alt:'家居场景生成需求与过程记录',text:'柜底空间足够，扫地机器人能否顺畅进入？围绕口播需要说明的空间关系，整理素材需求。',caption:'家居案例 · 原始过程截图'},
+  {title:'用 AI，补充场景素材',label:'02 / AI 素材',src:'/images/p05-04.webp',alt:'解释性上升动画的生成记录',text:'将难以直接拍摄的场景、需要视觉辅助的概念，转化为生成素材。这里的上升图形属于解释性动画。',caption:'母婴案例 · 解释性动画生成记录'},
+  {title:'回到口播，完成画面表达',label:'03 / 成片应用',src:'/images/p05-03.webp',alt:'口播人物与上升动画整合后的截图',text:'通过素材选择、裁剪与剪辑整合，让辅助画面服务于原有口播。我的职责集中在素材生成与后期整合。',caption:'母婴案例 · 成片应用截图'},
+];
+---
+<Base home>
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <div class="hero-meta"><span>PERSONAL PORTFOLIO / 2026</span><span class="availability"><i></i>{profile.availability}</span></div>
+    <div class="hero-grid">
+      <div class="hero-copy"><p class="hero-intro">你好，我是</p><h1 id="hero-title">张泳珺<span class="name-dot">.</span></h1><p class="hero-position">AI 内容创作 <span>·</span> 视频创作<br/><span class="growth-label">内容运营</span><span class="line-accent" aria-hidden="true"></span></p><p class="hero-description">用 AI 提升内容生产效率，<br/>也把 AI 创作转化成真实内容。</p><div class="hero-actions"><a class="button primary" href="#selected">查看精选作品 <span>↗</span></a><a class="quiet-link" href={profile.resume} download="张泳珺_AI内容增长_当前简历.pdf">下载简历 <span>↓</span></a></div><p class="identity">{profile.location}<span>/</span>{profile.year}<span>/</span>{profile.major}</p></div>
+      <div class="hero-art" data-parallax>
+        <div class="orbit-ring" aria-hidden="true"></div><span class="art-cross cross-one" aria-hidden="true">+</span><span class="art-cross cross-two" aria-hidden="true">+</span>
+        <a class="hero-shot shot-back" href="/work/ai-video/" data-depth="-0.5"><img src="/images/cloud-oriental.webp" alt="云上东方 AI 视觉作品" fetchpriority="high"/><span>AI / 想象成为影像 <b>↗</b></span></a>
+        <a class="hero-shot shot-middle" href="/work/dewu/" data-depth="0.65"><img src="/images/dewu-content-samples.webp" alt="得物好物内容样本合集" fetchpriority="high"/><span>02 / 内容与商业化 <b>↗</b></span></a>
+        <a class="hero-shot shot-front" href="/work/ai-sandbox/" data-depth="1"><img src="/images/guangzhou-sandbox.webp" alt="广州沙盘网页真实画面" fetchpriority="high"/><span>01 / 从 AI 到小红书 <b>↗</b></span></a>
+        <div class="art-caption"><span class="spark" aria-hidden="true">✳</span><span>想法有形，<br/>内容有回响。</span></div>
+        <span class="art-footnote">REAL WORK. REAL PRACTICE.</span>
+      </div>
+    </div>
+    <div class="hero-stats"><div><span class="stat-capability">内容运营</span><strong>2.55<small>万</small></strong><p>单篇最高阅读 <span>得物历史后台</span></p></div><div><span class="stat-capability">视频创作</span><strong>70<span>+</span><small>条</small></strong><p>品牌内容交付 <span>ABLPOWER 实习</span></p></div><div><span class="stat-capability">AI 创作</span><strong>700<span>+</span><small>播放</small></strong><p>广州沙盘短视频 <span>小红书近期作品</span></p></div><div class="stats-note"><span>CREATIVITY<br/>MEETS PRACTICE.</span><a href="#selected" aria-label="向下浏览案例">↓</a></div></div>
+  </section>
+
+  <section id="selected" class="section wrap" data-section>
+    <div class="section-head"><div><p class="eyebrow"><span>01</span> SELECTED WORK</p><h2>作品，是最好的介绍<span class="accent">。</span></h2></div><p class="section-aside">从具体问题出发，<br/>看创意如何成为内容与结果。</p></div>
+    <div class="case-grid featured-four">{projects.map(entry=><CaseCard entry={entry}/>)}</div>
+  </section>
+
+  <section id="accounts" class="accounts-section" data-section><div class="wrap section">
+    <div class="section-head"><div><p class="eyebrow"><span>02</span> CONTENT & GROWTH</p><h2>创作之后，继续看结果。</h2></div><p class="section-aside">两个平台，两种内容实践。<br/>每一项成果，都回到具体的账号。</p></div>
+    <div class="account-grid">
+      <article class="account-card dewu-account"><div class="account-heading"><span class="platform-icon">得</span><div><h3>得物</h3><p>穿搭 · 配饰 · 日用品</p></div><span class="account-tag">独立运营 6 个月</span></div><div class="account-images"><img src="/images/dewu-content-samples.webp" alt="得物图文内容样本" loading="lazy"/><img src="/images/dewu-reading-list.webp" alt="得物内容阅读量记录" loading="lazy"/><img src="/images/dewu-video-samples.webp" alt="得物视频内容样本" loading="lazy"/></div><div class="account-numbers"><div><strong>2.55 万</strong><span>单篇阅读 · 历史后台</span></div><div><strong>1,454</strong><span>好物访问</span></div><div><strong>≈ ¥3,000</strong><span>个人商单变现</span></div></div><p class="source-note">阅读来自新增历史后台；访问与收入来自简历，分别呈现</p><a class="text-link" href="/work/dewu/">查看运营与商业化实践 <span>↗</span></a></article>
+      <article class="account-card xhs-account"><div class="account-heading"><span class="platform-icon">红</span><div><h3>小红书</h3><p>摄影 · 陪拍 · 生活方式</p></div><span class="account-tag">早期运营经历</span></div><div class="account-images"><img src="/images/p09-02.webp" alt="户外摄影组图" loading="lazy"/><img src="/images/p09-03.webp" alt="空间与人像摄影组图" loading="lazy"/><img src="/images/p09-06.webp" alt="生活方式摄影组图" loading="lazy"/></div><div class="account-numbers"><div><strong>1,000+</strong><span>自然流涨粉</span></div><div><strong>1 万+</strong><span>单条笔记浏览</span></div><div><strong>0 → 1</strong><span>个人账号运营</span></div></div><p class="source-note">旧作品集历史记录 · 具体统计周期未提供</p><a class="text-link" href="/work/xiaohongshu/">查看摄影与内容实践 <span>↗</span></a></article>
+    </div>
+    <a class="recent-direction" href="/work/ai-sandbox/"><img src="/images/guangzhou-sandbox.webp" alt="广州沙盘网页演示" loading="lazy"/><div><p class="eyebrow">NEW DIRECTION / 小红书内容实践</p><h3>琢磨普通人，怎样真正把 AI 用起来。</h3><p>从摄影与生活方式，延伸到 AI 创作的真实尝试。</p></div><span><b>700+</b>播放 ↗</span></a>
+    <div class="filmstrip-head"><p class="eyebrow">A FEW FRAMES OF MY WORK</p><div class="film-controls"><span data-film-count>01 / 06</span><button data-film-prev aria-label="浏览上一张作品">←</button><button data-film-next aria-label="浏览下一张作品">→</button></div></div>
+    <div class="filmstrip" tabindex="0" role="region" aria-label="作品胶卷，可使用左右方向键浏览" data-filmstrip>{filmstrip.map((frame,i)=><a class="film-frame" href={frame.href} draggable="false"><div class="film-perforations" aria-hidden="true"></div><img src={frame.src} alt={frame.label} loading="lazy" draggable="false"/><div class="film-label"><span>{String(i+1).padStart(2,'0')} / {frame.type}</span><span>↗</span></div></a>)}</div>
+  </div></section>
+
+  <section id="ai-film" class="dark-section" data-section><div class="wrap section">
+    <div class="section-head"><div><p class="eyebrow"><span>03</span> AI IN THE PROCESS</p><h2>想象有了画面，<br/>创作有了更多可能<span class="accent">。</span></h2></div><p class="section-aside">AI 视频创作与真实内容辅助，<br/>分别呈现，清楚说明。</p></div>
+    <div class="ai-reel">{videos.filter(v=>v.category==='AI 视频').map(video=><VideoCard video={video}/>)}</div>
+    <div class="reel-footer"><p>持续关注 TikTok、Instagram 等海外社媒，探索 AI 视觉与短视频表达。</p><a class="text-link" href="/work/ai-video/">查看 AI 视频创作与说明 ↗</a></div>
+    <div class="subsection-head"><p class="eyebrow">AI-ASSISTED / REAL CONTENT</p><h3>给真实口播，补上需要的画面。</h3><p>需求场景 → AI 补充素材 → 成片应用</p></div>
+    <div class="process-stage" data-process><div class="stage-sticky"><div class="stage-screen"><span class="stage-corner">PROCESS / CONTACT SHEET</span>{steps.map((s,i)=><div class:list={['stage-frame',{'is-active':i===0}]} data-stage-frame={i} aria-hidden={i!==0}><img src={s.src} alt={s.alt} {...imageDimensions(s.src)} loading="lazy"/><span>{s.caption}</span></div>)}<span class="stage-corner bottom">AI-ASSISTED EDITING <span>＋</span></span></div><div class="stage-tabs" aria-label="选择制作步骤">{steps.map((s,i)=><button data-stage-tab={i} aria-pressed={i===0}>{s.label}</button>)}</div></div><div class="stage-steps">{steps.map((s,i)=><article class="stage-step" data-stage-step={i}><span class="step-index">0{i+1}</span><div><p class="eyebrow">{s.label}</p><h3>{s.title}</h3><p>{s.text}</p><img class="step-mobile-image" src={s.src} alt={s.alt} {...imageDimensions(s.src)} loading="lazy"/></div></article>)}</div></div>
+    <div class="stage-end"><p>生成过程、应用截图与两条完整成片</p><a class="button light" href="/work/ai-assisted-editing/">查看过程与完整成片 <span>↗</span></a></div>
+
+  </div></section>
+
+  <section id="video-work" class="section wrap" data-section><div class="section-head"><div><p class="eyebrow"><span>04</span> VIDEO MAKING</p><h2>从脚本，到镜头前。</h2></div><a class="text-link" href="/videos/">更多视频作品 ↗</a></div>
+    <div class="brand-experience"><div><h3>ABLPOWER · 短视频内容创作</h3><p>产品信息梳理、脚本、出镜拍摄与剪辑交付。<br/>用产品宣传与口播作品，展示内容制作的基本功。</p></div><div><strong>70+<small> 条</small></strong><span>实习品牌内容交付</span><p class="source-note">当前简历记录 · 2025.06—08<br/>整体交付数量，非单片播放数据</p></div></div>
+    <div class="video-previews">{videos.filter(v=>['v801-product','sp06-product','power-talk','mf12-talk'].includes(v.id)).map(video=><VideoCard video={video} compact/>)}</div>
+    <p class="source-note">横屏宣传与竖屏口播均保留原始画幅，点击可大尺寸观看。</p>
+  </section>
+
+  <section class="section lab-section" id="ai-lab"><div class="wrap"><div class="section-head"><div><p class="eyebrow"><span>05</span> AI CONTENT LAB</p><h2>我的 AI 内容实验室。</h2></div><p class="section-aside">把日常想法做成小工具，<br/>持续积累创作方法。</p></div><div class="lab-grid"><div><p class="eyebrow">PERSONAL WORKSPACE / AI CODING</p><h3>一个自己用的工作台</h3><p>把待办、灵感和日常记录放在同一个界面里。这组真实截图呈现我的个人 AI Coding 尝试。</p><div class="skills"><span>AI Coding</span><span>Prompt</span><span>灵感记录</span><span>工作流</span><span>AI 生图</span><span>AI 视频</span><span>素材处理</span></div><p class="source-note">持续探索方向如上；本组截图展示的是个人管理界面，不代表每一项 AI 能力都已集成。</p></div><div class="lab-screens"><Media src="/images/lab-home.webp" alt="个人工作台主页" caption="主页与今日待办｜真实界面截图"/><Media src="/images/lab-ideas.webp" alt="个人工作台待办与灵感记录" caption="待办与灵感捕捉｜真实界面截图"/></div></div><details class="editorial-details"><summary>查看更多工作台界面 <span>＋</span></summary><div class="details-content lab-extra"><Media src="/images/lab-daily.webp" alt="个人工作台饮食记录" caption="日常记录界面"/><Media src="/images/lab-notes.webp" alt="个人工作台想法收集" caption="想法与愿望记录界面"/></div></details></div></section>
+  <section class="wrap workflow-section compact-workflow" id="workflow"><div class="section-head"><div><p class="eyebrow">AI TOOL / 次重点项目</p><h2>把 AI，做成内容工具。</h2></div></div><div class="workflow-grid"><div><span class="pill">独立项目 / 2026.07—至今</span><h3>店小策<span>AI 营销内容工作台</span></h3><p>面向有多平台营销内容需求的商家，将商品信息转化为标题、卖点、营销文案与客服回复。</p><div class="time-compare"><div><span>优化前</span><strong>≈ 8<small>分钟</small></strong></div><span class="time-arrow">→</span><div><span>优化后</span><strong>≈ 3<small>分钟</small></strong></div></div><p class="source-note">单次生成与整理耗时减少约 62.5%。<br/>来源：简历中的项目自测描述；样本规模未提供。</p></div><div class="workflow-diagram" aria-label="店小策工作流程示意"><span class="diagram-label">工作流程示意 / 非产品界面</span><div class="flow-input"><span>01</span><strong>商品信息 ＋ 营销场景</strong></div><div class="flow-line" aria-hidden="true"></div><div class="flow-center"><span class="flow-spark">✳</span><div><strong>AI 内容生成</strong><span>Prompt 设计 · 结构化输出</span></div></div><div class="flow-outputs"><span>标题</span><span>卖点</span><span>文案</span><span>客服回复</span></div><div class="flow-line" aria-hidden="true"></div><div class="flow-input"><span>03</span><strong>人工检查 → 结果复用</strong></div></div></div>
+    <details class="editorial-details"><summary>展开项目职责与质量优化 <span class="details-plus">＋</span></summary><div class="details-content three-columns"><div><h4>调研与流程搭建</h4><p>独立对比同类工具的功能、输入和输出结构，归纳目标用户需求，完成商品信息到多平台内容的工作流及可操作 Demo。</p></div><div><h4>质量检查</h4><p>从内容相关性、信息完整度和直接可用性三个维度检查输出，记录字段缺失、内容空泛与篇幅波动。</p></div><div><h4>迭代与复用</h4><p>补充输入字段，约束输出结构，沉淀 Prompt 模板。现有材料未提供 Demo 链接和界面截图，使用流程图说明项目。</p></div></div></details>
+  </section>
+
+  <section id="about" class="about-section wrap section" data-section><div class="about-visual" aria-hidden="true"><div class="about-visual-top"><span>06 / BEHIND THE WORK</span><span>ZYJ · 2026</span></div><div class="about-orbit"><i></i><i></i><b>+</b></div><div class="about-type"><span>CONTENT<br/>VIDEO<br/>GROWTH</span></div><div class="about-film"><i></i><i></i><i></i></div><div class="about-visual-foot"><span>IDEA</span><b>→</b><span>MAKE</span><b>→</b><span>PUBLISH</span></div></div><div class="about-copy"><p class="eyebrow"><span>06</span> A LITTLE ABOUT ME</p><h2>有创作者的感知，<br/>也有运营者的思考。</h2><p>2027 届计算机科学与技术本科生，有内容创作、视频制作与账号运营经历。用 AIGC 补充表达，也用 AI Coding 把想法做出来。</p><div class="about-facts"><div><span>2023—2027</span><p><strong>广东理工学院</strong>计算机科学与技术 · 本科<br/>专业前 5% · CET-6</p></div><div><span>2025.06—08</span><p><strong>ABLPOWER · 新媒体运营实习</strong>产品资料梳理、脚本、拍摄剪辑与内容交付</p></div></div><div class="skills">{["内容策划","短视频","摄影","剪辑","剪映","Premiere","Photoshop","AIGC","AI 生图","AI 视频","Prompt","AI Coding","小红书","得物","海外社交媒体"].map(skill=><span>{skill}</span>)}</div><div class="contact"><p>期待下一次，一起把想法做出来。</p><a class="email-link" href={`mailto:${profile.email}`}>{profile.email} <span>↗</span></a><div class="contact-actions"><button class="quiet-link" data-copy={profile.email}>复制邮箱 ↗</button><button class="quiet-link" data-copy={profile.wechat}>电话 / 微信 {profile.wechat} ⧉</button><a class="quiet-link" href={profile.resume} download="张泳珺_AI内容增长_当前简历.pdf">下载简历 ↓</a></div></div></div></section>
+</Base>

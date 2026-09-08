@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import VideoCard from '../components/VideoCard.astro';
+import Media from '../components/Media.astro';
+import videos from '../data/videos.json';
+const products=videos.filter(v=>v.category==='产品宣传');
+const talks=videos.filter(v=>v.category==='口播');
+const extra=videos.find(v=>v.id==='office-short')!;
+---
+<Base title="视频创作 · 张泳珺作品集" description="ABLPOWER 产品宣传与本人出镜口播，展示脚本、拍摄、剪辑和内容交付经历。">
+<div class="wrap section video-wall">
+  <a class="back-link" href="/#video-work">← 返回首页</a><header class="case-hero"><p class="eyebrow">VIDEO MAKING / ABLPOWER</p><h1>把产品讲清楚，<br/>把内容做出来。</h1><p class="case-summary">从脚本到镜头前，从产品细节到成片节奏。以下作品展示产品宣传与本人出镜口播的内容制作经历。</p></header>
+  <div class="detail-metrics"><div><strong>70+ 条</strong><span>实习品牌内容交付</span><small>当前简历记录 · 非下列单片数据</small></div><div><strong>2025.06—08</strong><span>ABLPOWER 新媒体运营实习</span><small>资料梳理、脚本、拍摄剪辑</small></div><div><strong>脚本 → 发布</strong><span>参与内容交付全流程</span><small>具体经历来源于简历与旧作品集</small></div></div>
+  <nav class="wall-nav" aria-label="视频作品分类"><a href="#products">产品宣传 ↓</a><a href="#talks">口播 ↓</a><a href="#extra">其他创作 ↓</a></nav>
+  <section id="products" class="wall-section"><div class="section-head"><div><p class="eyebrow">01 / PRODUCT FILMS</p><h2>产品宣传</h2></div><p class="section-aside">产品细节 · 信息组织 · 剪辑交付</p></div><div class="video-grid product-grid">{products.map(video=><VideoCard video={video}/>)}</div></section>
+  <section id="talks" class="wall-section"><div class="section-head"><div><p class="eyebrow">02 / ON CAMERA</p><h2>出镜口播</h2></div><p class="section-aside">本人出镜 · 产品讲解 · 演示剪辑</p></div><div class="video-grid talk-grid">{talks.map(video=><VideoCard video={video}/>)}</div></section>
+  <section id="extra" class="wall-section"><div class="section-head"><div><p class="eyebrow">03 / MORE PRACTICE</p><h2>更多创作</h2></div></div><div class="extra-grid"><VideoCard video={extra}/><div><h3>产品混剪</h3><p>保留旧作品集中的家居产品混剪记录，作为素材组织和平台内容制作的补充。当前未提供对应完整视频。</p><Media src="/images/p07-02.webp" alt="家居产品混剪历史账号记录" caption="作品集第 7 页｜历史截图"/></div></div></section>
+  <p class="source-note">视频为本人提供的作品。没有对应单片播放、询盘或转化记录，因此不将实习整体交付数量分配给具体作品。视频内产品描述属于原成片内容。</p><a class="button primary" href="/#selected">继续看精选案例 ↗</a>
+</div>
+</Base>

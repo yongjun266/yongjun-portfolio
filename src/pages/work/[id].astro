@@ -1,0 +1,18 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Media from '../../components/Media.astro';
+export async function getStaticPaths(){return (await getCollection('cases')).map(entry=>({params:{id:entry.id},props:{entry}}));}
+interface Props{ entry:CollectionEntry<'cases'>; }
+const {entry}=Astro.props;
+const d=entry.data;
+const all=(await getCollection('cases')).sort((a,b)=>a.data.number.localeCompare(b.data.number));
+const next=all[(all.findIndex(x=>x.id===entry.id)+1)%all.length];
+---
+<Base title={`${d.shortTitle} · 张泳珺作品集`} description={d.summary}>
+  <div class="case-page wrap"><a class="back-link" href="/#selected">← 返回精选案例</a><header class="case-hero"><p class="eyebrow">CASE {d.number} / {d.category}</p><h1>{d.title}</h1><p class="case-summary">{d.summary}</p><div class="case-meta"><div><span>我的职责</span><strong>{d.role}</strong></div><div><span>项目周期</span><strong>{d.period}</strong></div></div></header>
+  <div class="detail-metrics">{d.metrics.map(m=><div><strong>{m.value}</strong><span>{m.label}</span><small>{m.note}</small></div>)}</div><p class="source-note detail-source">资料来源：{d.source}</p>
+  <div class="case-body"><aside class="case-toc"><span class="eyebrow">IN THIS CASE</span><nav aria-label="案例章节">{d.sections.map(s=><a href={`#${s.id}`} data-toc={s.id}>{s.title}</a>)}</nav><span class="toc-footnote">作品 · 过程 · 证据</span></aside><div class="case-article">{d.sections.map(s=><section id={s.id} class="case-section" data-case-section><h2>{s.title}</h2>{s.paragraphs.map(p=><p>{p}</p>)}{s.points && <div class="case-points">{s.points.map((p,i)=><div><span>{String(i+1).padStart(2,'0')}</span><div><h3>{p.title}</h3><p>{p.text}</p></div></div>)}</div>}{s.images && <div class:list={['case-gallery',{'gallery-three':s.images.length===3,'gallery-single':s.images.length===1,'gallery-videos':s.images.some(m=>m.kind==='video')}]}>{s.images.map(m=><Media src={m.src} alt={m.alt} caption={m.caption} kind={m.kind} poster={m.poster}/>)}</div>}</section>)}</div></div>
+  {entry.id==='xiaohongshu' && <a class="button primary" href="/work/ai-sandbox/">查看近期 AI 创作与小红书案例 ↗</a>}
+  <a class="next-case" href={`/work/${next.id}/`}><div><p class="eyebrow">NEXT CASE / 下一个案例</p><h2>{next.data.shortTitle}</h2><p>{next.data.category}</p></div><span aria-hidden="true">↗</span></a></div>
+</Base>

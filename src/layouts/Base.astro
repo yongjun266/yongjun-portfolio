@@ -1,0 +1,30 @@
+---
+import '../styles/global.css';
+import '../styles/refactor.css';
+import { profile } from '../data/profile';
+interface Props { title?: string; description?:string; home?:boolean; }
+const { title = '张泳珺 · AI 内容与增长作品集', description = profile.description, home = false } = Astro.props;
+const links=[['精选作品','selected'],['内容运营','accounts'],['AI 创作','ai-film'],['视频创作','video-work'],['关于我','about']];
+---
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content={description}/><meta name="theme-color" content="#F6F4EF"/><meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:type" content="website"/><link rel="icon" href="/favicon.svg" type="image/svg+xml"/><title>{title}</title></head>
+<body>
+  <a href="#main" class="skip-link">跳转到正文</a>
+  <header class="site-header"><div class="nav-inner">
+    <a class="wordmark" href="/" aria-label="张泳珺，返回首页"><span class="brand-symbol" aria-hidden="true">z<span>•</span></span><span>张泳珺<small>CONTENT & GROWTH</small></span></a>
+    <nav aria-label="主导航">{links.map(([label,id])=><a href={`${home?'':'/'}#${id}`} data-nav={id}>{label}</a>)}</nav>
+    <a class="nav-resume" href={profile.resume} download="张泳珺_AI内容增长_当前简历.pdf">下载简历 <span aria-hidden="true">↙</span></a>
+  </div></header>
+  <main id="main"><slot/></main>
+  <footer class="site-footer wrap"><a class="footer-brand" href="/">张泳珺<span>把创意，落到内容里。</span></a><p>© 2026 · PERSONAL PORTFOLIO</p><a href="#main">回到顶部 ↑</a></footer>
+  <dialog class="lightbox" aria-label="作品大图"><div class="lightbox-bar"><span>作品查看</span><button type="button" data-close aria-label="关闭作品大图">关闭 <span aria-hidden="true">×</span></button></div><div class="lightbox-body"><img alt="" src=""/></div><p class="lightbox-caption"></p></dialog>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <div class="target-cursor" aria-hidden="true">
+    <span class="target-cursor-dot"></span>
+    <span class="target-cursor-frame"><i></i><i></i><i></i><i></i><b></b></span>
+  </div>
+  <dialog class="video-modal" aria-label="视频作品播放器"><div class="lightbox-bar"><span data-video-title>视频作品</span><button type="button" data-video-close aria-label="关闭视频">关闭 ×</button></div><video controls playsinline preload="none"></video><p class="modal-video-error" hidden>视频暂时无法加载，请检查网络后重试。<a data-video-fallback href="/">直接打开视频 ↗</a></p><p class="video-modal-note">真实作品 · 保留原始画幅</p></dialog>
+  <noscript><style is:inline>.stage-sticky{display:none}.process-stage{display:block}.stage-step{max-width:740px;margin-inline:auto;min-height:0}.step-mobile-image{display:block;width:100%;max-height:350px;object-fit:contain;margin-top:20px}</style></noscript>
+  <script>import '../scripts/interactions';</script>
+</body></html>

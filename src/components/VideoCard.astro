@@ -1,0 +1,13 @@
+---
+import { imageDimensions } from '../data/media';
+interface Props { video:{src:string;poster:string;title:string;description:string;category:string;duration:number;width:number;height:number}; compact?:boolean; }
+const {video:v,compact=false}=Astro.props;
+const duration=`${Math.floor(v.duration/60)}:${String(Math.round(v.duration%60)).padStart(2,'0')}`;
+---
+<article class:list={['video-card',{'video-card-compact':compact,'video-portrait':v.height>v.width}]}>
+  <a class="video-cover" href={v.src} data-video data-poster={v.poster} data-title={v.title} aria-label={`播放：${v.title}`} style={`--video-ratio:${v.width}/${v.height}`}>
+    <img src={v.poster} alt={v.title+' · 真实视频画面'} {...imageDimensions(v.poster)} loading="lazy" decoding="async"/>
+    <span class="play-badge"><span aria-hidden="true">▶</span> 播放作品</span><span class="video-duration">{duration}</span>
+  </a>
+  <div class="video-card-copy"><p class="eyebrow">{v.category}</p><h3>{v.title}</h3><p>{v.description}</p></div>
+</article>

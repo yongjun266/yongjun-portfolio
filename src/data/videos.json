@@ -1,0 +1,123 @@
+[
+  {
+    "id": "guangzhou-sandbox",
+    "title": "半小时，用 GPT 6.0 做了个能逛的广州",
+    "description": "AI Coding → 小红书内容",
+    "category": "AI 创作",
+    "width": 1920,
+    "height": 1080,
+    "duration": 33.65,
+    "src": "/videos/guangzhou-sandbox.mp4",
+    "poster": "/images/guangzhou-sandbox.webp"
+  },
+  {
+    "id": "cloud-oriental",
+    "title": "云上东方",
+    "description": "幻想场景与东方建筑的空间表达。",
+    "category": "AI 视频",
+    "width": 2560,
+    "height": 1440,
+    "duration": 18.09,
+    "src": "/videos/cloud-oriental.mp4",
+    "poster": "/images/cloud-oriental.webp"
+  },
+  {
+    "id": "mirror-doll",
+    "title": "镜中人偶",
+    "description": "镜面、角色与人偶的氛围实验。",
+    "category": "AI 视频",
+    "width": 1080,
+    "height": 1916,
+    "duration": 5.04,
+    "src": "/videos/mirror-doll.mp4",
+    "poster": "/images/mirror-doll.webp"
+  },
+  {
+    "id": "peach-blush",
+    "title": "桃子腮红",
+    "description": "以桃子与腮红组织产品视觉，探索海外社媒表达。",
+    "category": "AI 视频",
+    "width": 720,
+    "height": 960,
+    "duration": 15.07,
+    "src": "/videos/peach-blush.mp4",
+    "poster": "/images/peach-blush.webp"
+  },
+  {
+    "id": "wardrobe-talk",
+    "title": "家居口播：空间场景补充",
+    "description": "佳佳爱生活 × 铂耐金属衣柜",
+    "category": "AI 辅助",
+    "width": 1440,
+    "height": 2560,
+    "duration": 90.91,
+    "src": "/videos/wardrobe-talk.mp4",
+    "poster": "/images/wardrobe-talk.webp"
+  },
+  {
+    "id": "maternal-talk",
+    "title": "母婴口播：解释性素材整合",
+    "description": "营养师婉婉妈妈 × 圣桐奶粉",
+    "category": "AI 辅助",
+    "width": 1440,
+    "height": 2560,
+    "duration": 102.4,
+    "src": "/videos/maternal-talk.mp4",
+    "poster": "/images/maternal-talk.webp"
+  },
+  {
+    "id": "v801-product",
+    "title": "V-801+ · 产品功能宣传",
+    "description": "实物特写、功能信息与画面编排。",
+    "category": "产品宣传",
+    "width": 1280,
+    "height": 720,
+    "duration": 72.58,
+    "src": "/videos/v801-product.mp4",
+    "poster": "/images/v801-product.webp"
+  },
+  {
+    "id": "sp06-product",
+    "title": "SP-06.I · 配电产品展示",
+    "description": "通过细节镜头呈现产品结构与接口。",
+    "category": "产品宣传",
+    "width": 1280,
+    "height": 720,
+    "duration": 38.44,
+    "src": "/videos/sp06-product.mp4",
+    "poster": "/images/sp06-product.webp"
+  },
+  {
+    "id": "power-talk",
+    "title": "便携式扩展电源 · 出镜讲解",
+    "description": "本人出镜，结合产品操作与细节镜头进行讲解。",
+    "category": "口播",
+    "width": 1080,
+    "height": 1920,
+    "duration": 29.72,
+    "src": "/videos/power-talk.mp4",
+    "poster": "/images/power-talk-cover.webp"
+  },
+  {
+    "id": "mf12-talk",
+    "title": "MF-12 · 功能讲解",
+    "description": "本人出镜，组织口播、功能演示与字幕信息。",
+    "category": "口播",
+    "width": 1080,
+    "height": 1920,
+    "duration": 85.71,
+    "src": "/videos/mf12-talk.mp4",
+    "poster": "/images/mf12-talk-cover.webp"
+  },
+  {
+    "id": "office-short",
+    "title": "那个永远准时下班的 05 后",
+    "description": "职场情景与剪辑节奏练习，含反应素材。",
+    "category": "情景短片",
+    "width": 1080,
+    "height": 1920,
+    "duration": 12.31,
+    "src": "/videos/office-short.mp4",
+    "poster": "/images/office-short.webp"
+  }
+]

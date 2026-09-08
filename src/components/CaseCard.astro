@@ -1,0 +1,13 @@
+---
+import type { CollectionEntry } from 'astro:content';
+interface Props { entry: CollectionEntry<'cases'>; }
+const { entry } = Astro.props;
+const d = entry.data;
+---
+<a href={`/work/${entry.id}/`} class:list={['case-card',`case-${entry.id}`]}>
+  <div class="case-art">
+    {entry.id === 'ai-assisted-editing' ? <div class="ai-card-pair"><img src="/images/p05-01.webp" alt="家居 AI 素材应用截图" loading="lazy"/><img src="/images/p05-03.webp" alt="口播解释性动画应用截图" loading="lazy"/></div> : entry.id === 'dewu' ? <><img class="card-photo" src="/images/dewu-content-samples.webp" alt="得物好物内容样本合集" loading="lazy"/><div class="card-stat"><span>单篇阅读 · 历史后台</span><strong>2.55 万</strong></div></> : <><img class="feature-cover" src={d.cover} alt={d.coverAlt} loading="lazy"/>{entry.id==='ai-sandbox' && <span class="sandbox-stamp">网页 → 短视频<br/><b>700+ 播放</b></span>}</>}
+    <span class="case-number">{d.number} / SELECTED</span><span class="case-go" aria-hidden="true">↗</span>
+  </div>
+  <div class="case-copy"><p class="eyebrow">{d.category}</p><h3>{d.shortTitle}</h3><p>{d.cardDescription}</p><span class="text-link">查看完整案例 <span aria-hidden="true">↗</span></span></div>
+</a>
