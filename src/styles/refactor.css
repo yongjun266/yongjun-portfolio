@@ -112,3 +112,39 @@
  .about-section{grid-template-columns:1fr;gap:32px}.about-visual{height:330px;padding:20px}.about-visual-top{font-size:7px}.about-orbit{width:245px;height:245px;left:-62px;top:45px}.about-type{left:20px;right:20px;top:105px}.about-type strong{font-size:88px}.about-type span{font-size:10px;letter-spacing:2px}.about-film{left:20px;right:20px;bottom:62px;height:65px;padding-block:9px}.about-visual-foot{left:20px;right:20px;bottom:20px;font-size:8px}.about-copy{width:100%}
 }
 @media(max-width:360px){.hero-art .shot-front{width:215px;height:160px}.hero-art .shot-back{width:205px;height:150px}.nav-inner nav a{font-size:10px}.video-previews{grid-template-columns:1fr}.video-card-compact .video-cover,.video-card-compact .video-cover img{height:260px;max-height:260px}.recent-direction{grid-template-columns:1fr}.recent-direction img{width:100%}.recent-direction>span{grid-column:auto}}
+
+.featured-cases{grid-template-columns:repeat(2,minmax(0,1fr));gap:42px 28px}
+.featured-cases .case-art{height:clamp(220px,25vw,320px)}
+.featured-cases .case-meta-ads .feature-cover{object-position:center 23%}
+.hero-art .shot-front img{object-fit:cover;object-position:center 23%}
+.featured-cases .case-dianxiaoce .feature-cover{object-fit:contain;background:#f4eadb}
+.case-copy .feature-evidence{display:flex;gap:9px;align-items:baseline;flex-wrap:wrap;margin-top:12px}
+.feature-evidence strong{color:var(--accent);font-size:14px}
+.feature-evidence span{font-size:11px}
+.brand-samples{grid-template-columns:repeat(2,minmax(0,1fr))}
+.supporting-cases{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;margin-top:42px}
+.supporting-case>a{display:grid;grid-template-columns:minmax(96px,1fr) 1.45fr;align-items:center;gap:19px;padding-top:18px;border-top:1px solid var(--line)}
+.supporting-case img{width:100%;height:135px;object-fit:cover}
+.supporting-case h3{margin:5px 0;font-size:18px}
+.supporting-case p{color:var(--muted);font-size:12px}
+.supporting-case .text-link{margin-top:9px}
+.case-comparison,.case-flow{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.case-comparison>div,.case-flow>div{margin:0;padding:16px;background:#eee9df;border-top:2px solid var(--accent)}
+.case-comparison h3,.case-flow h3{margin-bottom:5px}
+.case-gallery .video-shell video[poster*="meta-"]{height:auto;min-height:0;aspect-ratio:9/16;max-height:60dvh}
+@media(min-width:1050px){
+  .featured-cases{grid-template-columns:repeat(6,minmax(0,1fr))}
+  .featured-cases .case-card{grid-column:span 2}
+  .featured-cases .case-card:nth-child(4){grid-column:2 / span 2}
+}
+@media(max-width:650px){
+  .featured-cases,.brand-samples,.supporting-cases{grid-template-columns:1fr}
+  .featured-cases .case-art{height:255px}
+  .supporting-cases{gap:19px;margin-top:25px}
+  .supporting-case img{height:108px}
+  .case-comparison>div,.case-flow>div{padding:12px}
+}
+@media(max-width:370px){
+  .hero-stats strong{font-size:25px}
+  .case-comparison,.case-flow{grid-template-columns:1fr}
+}

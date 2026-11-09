@@ -10,6 +10,7 @@ const cases = defineCollection({
     source: z.string(), cardDescription: z.string().optional(), metrics: z.array(z.object({value:z.string(), label:z.string(), note:z.string()})),
     sections: z.array(z.object({id:z.string(), title:z.string(), paragraphs:z.array(z.string()),
       images:z.array(z.object({src:z.string(),alt:z.string(),caption:z.string(),kind:z.enum(['image','video']).default('image'),poster:z.string().optional()})).optional(),
+      pointsLayout:z.enum(['comparison','flow']).optional(),
       points:z.array(z.object({title:z.string(),text:z.string()})).optional()
     }))
   })

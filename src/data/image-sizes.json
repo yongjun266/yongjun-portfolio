@@ -4,20 +4,20 @@
     "height": 563
   },
   "/images/dewu-account.webp": {
-    "width": 848,
-    "height": 553
+    "width": 300,
+    "height": 134
   },
   "/images/dewu-cover.webp": {
     "width": 483,
     "height": 638
   },
   "/images/dewu-pink-analytics.webp": {
-    "width": 1206,
-    "height": 1750
+    "width": 326,
+    "height": 477
   },
   "/images/dewu-zoo-analytics.webp": {
-    "width": 1206,
-    "height": 1821
+    "width": 328,
+    "height": 446
   },
   "/images/guangzhou-sandbox.webp": {
     "width": 1000,
@@ -156,8 +156,8 @@
     "height": 293
   },
   "/images/p09-01.webp": {
-    "width": 845,
-    "height": 1836
+    "width": 403,
+    "height": 692
   },
   "/images/p09-02.webp": {
     "width": 850,
@@ -228,8 +228,8 @@
     "height": 1778
   },
   "/images/sandbox-analytics.webp": {
-    "width": 572,
-    "height": 814
+    "width": 393,
+    "height": 110
   },
   "/images/sp06-product.webp": {
     "width": 1000,
@@ -258,5 +258,61 @@
   "/images/dewu-video-samples.webp": {
     "width": 1526,
     "height": 2035
+  },
+  "/images/meta-creative.webp": {
+    "width": 1440,
+    "height": 1800
+  },
+  "/images/shopline-content.webp": {
+    "width": 941,
+    "height": 1672
+  },
+  "/images/workspace-demo-1.webp": {
+    "width": 884,
+    "height": 1518
+  },
+  "/images/workspace-demo-2.webp": {
+    "width": 884,
+    "height": 1487
+  },
+  "/images/guilin-explore.webp": {
+    "width": 1500,
+    "height": 1000
+  },
+  "/images/guilin-teacher.webp": {
+    "width": 1500,
+    "height": 1000
+  },
+  "/images/meta-creative-detail.webp": {
+    "width": 1024,
+    "height": 1536
+  },
+  "/images/shopline-content-detail.webp": {
+    "width": 1086,
+    "height": 1448
+  },
+  "/images/dianxiaoce-flow.webp": {
+    "width": 590,
+    "height": 409
+  },
+  "/images/workspace-note-analytics.webp": {
+    "width": 405,
+    "height": 112
+  },
+  "/images/dianxiaoce-example.webp": {
+    "width": 1200,
+    "height": 723
+  },
+  "/images/dianxiaoce-platforms.webp": {
+    "width": 1200,
+    "height": 276
+  },
+  "/images/meta-mirror-sample.webp": {
+    "width": 760,
+    "height": 1351
+  },
+  "/images/meta-occasion-sample.webp": {
+    "width": 720,
+    "height": 1280
   }
 }
