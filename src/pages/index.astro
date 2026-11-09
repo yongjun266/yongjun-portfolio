@@ -10,6 +10,7 @@ import { imageDimensions } from '../data/media';
 
 const entries = await getCollection('cases');
 const projects = projectOrder.map(id => entries.find(entry => entry.id === id)!);
+const metaCase = entries.find(entry => entry.id === 'meta-ads')!.data;
 const supporting = ['xiaohongshu', 'guilin-towers'].map(id => entries.find(entry => entry.id === id)!);
 const brandVideos = videos.filter(video => ['sp06-product', 'power-talk'].includes(video.id));
 ---
@@ -22,7 +23,7 @@ const brandVideos = videos.filter(video => ['sp06-product', 'power-talk'].includ
         <div class="orbit-ring" aria-hidden="true"></div><span class="art-cross cross-one" aria-hidden="true">+</span><span class="art-cross cross-two" aria-hidden="true">+</span>
         <a class="hero-shot shot-back" href="/work/ai-workspace/" data-depth="-0.5"><img src="/images/workspace-demo-1.webp" alt="个人 AI 工作台真实界面" fetchpriority="high"/><span>02 / 个人 AI 工作台 <b>↗</b></span></a>
         <a class="hero-shot shot-middle" href="/work/dewu/" data-depth="0.65"><img src="/images/dewu-content-samples.webp" alt="得物好物内容样本合集" fetchpriority="high"/><span>03 / 账号与商业合作 <b>↗</b></span></a>
-        <a class="hero-shot shot-front" href="/work/meta-ads/" data-depth="1"><img src="/images/meta-mirror-sample.webp" alt="红裙对镜口播创意样片关键帧" fetchpriority="high"/><span>01 / Meta 创意复盘 <b>↗</b></span></a>
+        <a class="hero-shot shot-front" href="/work/meta-ads/" data-depth="1"><img src={metaCase.cover} alt={metaCase.coverAlt} {...imageDimensions(metaCase.cover)} fetchpriority="high"/><span>01 / Meta 创意复盘 <b>↗</b></span></a>
         <div class="art-caption"><span class="spark" aria-hidden="true">✳</span><span>想法有形，<br/>内容有回响。</span></div>
         <span class="art-footnote">REAL WORK. REAL PRACTICE.</span>
       </div>

@@ -115,8 +115,8 @@
 
 .featured-cases{grid-template-columns:repeat(2,minmax(0,1fr));gap:42px 28px}
 .featured-cases .case-art{height:clamp(220px,25vw,320px)}
-.featured-cases .case-meta-ads .feature-cover{object-position:center 23%}
-.hero-art .shot-front img{object-fit:cover;object-position:center 23%}
+.featured-cases .case-meta-ads .feature-cover{object-fit:contain;background:#eee8df}
+.hero-art .shot-front img{object-fit:cover;object-position:center}
 .featured-cases .case-dianxiaoce .feature-cover{object-fit:contain;background:#f4eadb}
 .case-copy .feature-evidence{display:flex;gap:9px;align-items:baseline;flex-wrap:wrap;margin-top:12px}
 .feature-evidence strong{color:var(--accent);font-size:14px}
