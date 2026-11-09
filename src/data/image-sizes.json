@@ -318,5 +318,9 @@
   "/images/meta-occasion-sample.webp": {
     "width": 720,
     "height": 1280
+  },
+  "/images/meta-terrace-sample.webp": {
+    "width": 480,
+    "height": 854
   }
 }

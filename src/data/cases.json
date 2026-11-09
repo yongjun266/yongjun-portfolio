@@ -75,21 +75,21 @@
         "id": "samples",
         "title": "03 / 实习创意样片",
         "paragraphs": [
-          "这里展示两种实际交付过的创意形式。对镜口播强调款式和上身细节，场景反差用居家与晚宴的切换呈现穿着场合。"
+          "样片 01 用居家与晚宴的切换呈现场景反差，样片 03 用同一户外场景展示多款裙装的上身效果。"
         ],
         "images": [
-          {
-            "src": "/videos/meta-mirror-sample.mp4",
-            "poster": "/images/meta-mirror-sample.webp",
-            "alt": "红裙对镜口播创意样片",
-            "caption": "创意样片 01 · 红裙对镜口播",
-            "kind": "video"
-          },
           {
             "src": "/videos/meta-occasion-sample.mp4",
             "poster": "/images/meta-occasion-sample.webp",
             "alt": "从居家到晚宴的服饰创意样片",
-            "caption": "创意样片 02 · 居家与晚宴场景反差",
+            "caption": "创意样片 01 · 居家与晚宴场景反差",
+            "kind": "video"
+          },
+          {
+            "src": "/videos/meta-terrace-sample.mp4",
+            "poster": "/images/meta-terrace-sample.webp",
+            "alt": "户外露台场景中的多款裙装创意样片",
+            "caption": "创意样片 03 · 户外场景多款穿搭",
             "kind": "video"
           }
         ]
