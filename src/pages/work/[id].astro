@@ -30,6 +30,7 @@ const next=all[(currentIndex+1)%all.length];
         {s.images && <div class:list={['case-gallery',{'gallery-three':s.images.length===3,'gallery-single':s.images.length===1,'gallery-videos':s.images.some(m=>m.kind==='video')}]}>
           {s.images.map(m => <Media src={m.src} alt={m.alt} caption={m.caption} kind={m.kind} poster={m.poster}/>)}
         </div>}
+        {s.note && <p class="source-note detail-source">{s.note}</p>}
         {entry.id==='xiaohongshu' && s.id==='next-direction' && <a class="text-link" href="/work/ai-sandbox/">查看广州沙盘的发布与复盘 ↗</a>}
       </section>)}
     </div>
